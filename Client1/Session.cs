@@ -136,5 +136,6 @@ namespace Client1
             char d = char.IsUpper(ch) ? 'A' : 'a';
             return (char)((((ch + key) - d) % 26) + d);
         }
+
     }
 }
